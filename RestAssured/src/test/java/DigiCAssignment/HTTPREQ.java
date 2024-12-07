@@ -107,5 +107,52 @@ public class HTTPREQ {
             System.out.println("Updated Title: " + jsonPath.getString("title"));
             System.out.println("Updated Body: " + jsonPath.getString("body"));
             System.out.println("Updated User ID: " + jsonPath.getString("userId"));
+            
+            /*
+             
+             *-- Find the minimum and maximum salary from the employees table.
+			SELECT MIN(salary) AS MinSalary, MAX(salary) AS MaxSalary
+			FROM employees;
+
+             *Group By clause
+             *-- Find the total salary of employees in each department
+			SELECT department_id, SUM(salary) AS TotalSalary
+			FROM employees
+			GROUP BY department_id;
+
+             *Inner Join
+             *-- Fetch employee names and their department names by joining employees and departments tables
+			SELECT e.employee_name, d.department_name
+			FROM employees e
+			INNER JOIN departments d
+			ON e.department_id = d.department_id;
+
+             *Left Join
+             *-- Fetch all employees and their departments (even if they don't belong to a department)
+			SELECT e.employee_name, d.department_name
+			FROM employees e
+			LEFT JOIN departments d
+			ON e.department_id = d.department_id;
+
+             *Right Join
+             *-- Fetch all departments and the employees assigned to them
+			SELECT e.employee_name, d.department_name
+			FROM employees e
+			RIGHT JOIN departments d
+			ON e.department_id = d.department_id;
+
+             *CROSS Join
+             *-- Get the Cartesian product of employees and departments
+			SELECT e.employee_name, d.department_name
+			FROM employees e
+			CROSS JOIN departments d;
+			
+			Top five salary
+			SELECT salary
+			FROM employees
+			ORDER BY salary DESC
+			LIMIT 5;
+
+             */
 	}
 }
