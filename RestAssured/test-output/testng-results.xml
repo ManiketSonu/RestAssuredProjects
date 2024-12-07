@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-07T00:58:36 IST" name="Default suite" finished-at="2024-12-07T00:58:39 IST" duration-ms="3533">
+  <suite started-at="2024-12-07T14:55:58 IST" name="Default suite" finished-at="2024-12-07T14:56:02 IST" duration-ms="3855">
     <groups>
     </groups>
-    <test started-at="2024-12-07T00:58:36 IST" name="Default test" finished-at="2024-12-07T00:58:39 IST" duration-ms="3533">
-      <class name="WaysToCreatePOSTReq.PostRequest">
-        <test-method signature="testPostUsingPojoClass()[pri:1, instance:WaysToCreatePOSTReq.PostRequest@71a8adcf]" started-at="2024-12-07T00:58:36 IST" name="testPostUsingPojoClass" finished-at="2024-12-07T00:58:39 IST" duration-ms="3392" status="PASS">
+    <test started-at="2024-12-07T14:55:58 IST" name="Default test" finished-at="2024-12-07T14:56:02 IST" duration-ms="3855">
+      <class name="PathAndQueryParameter.HeaderDemo">
+        <test-method signature="testHeaders()[pri:1, instance:PathAndQueryParameter.HeaderDemo@71a8adcf]" started-at="2024-12-07T14:55:58 IST" name="testHeaders" finished-at="2024-12-07T14:56:01 IST" duration-ms="3066" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostUsingPojoClass -->
-        <test-method signature="TestDelete()[pri:2, instance:WaysToCreatePOSTReq.PostRequest@71a8adcf]" started-at="2024-12-07T00:58:39 IST" name="TestDelete" finished-at="2024-12-07T00:58:39 IST" duration-ms="78" status="PASS">
+        </test-method> <!-- testHeaders -->
+        <test-method signature="getHeader()[pri:2, instance:PathAndQueryParameter.HeaderDemo@71a8adcf]" started-at="2024-12-07T14:56:01 IST" name="getHeader" finished-at="2024-12-07T14:56:02 IST" duration-ms="721" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestDelete -->
-      </class> <!-- WaysToCreatePOSTReq.PostRequest -->
+        </test-method> <!-- getHeader -->
+      </class> <!-- PathAndQueryParameter.HeaderDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
