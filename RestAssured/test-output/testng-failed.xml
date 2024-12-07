@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WaysToCreatePOSTReq.PostRequest">
+      <class name="DigiCAssignment.HTTPREQ">
         <methods>
-          <include name="testPostUsingPojoClass"/>
+          <include name="getUsers"/>
         </methods>
-      </class> <!-- WaysToCreatePOSTReq.PostRequest -->
+      </class> <!-- DigiCAssignment.HTTPREQ -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
